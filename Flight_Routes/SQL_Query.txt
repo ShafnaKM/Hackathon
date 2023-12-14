@@ -1,0 +1,21 @@
+CREATE TABLE routes (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    code_from VARCHAR(3),
+    code_to VARCHAR(3),
+    day1 BOOLEAN,
+    day2 BOOLEAN,
+    day3 BOOLEAN,
+    day4 BOOLEAN,
+    day5 BOOLEAN,
+    day6 BOOLEAN,
+    day7 BOOLEAN,
+    class_business BOOLEAN,
+    class_economy BOOLEAN,
+    class_first BOOLEAN,
+    common_duration INT,
+    flights_per_day VARCHAR(10),
+    flights_per_week INT,          
+    airline_code VARCHAR(10)       
+);
+
+
